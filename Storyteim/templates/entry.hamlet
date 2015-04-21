@@ -1,0 +1,4 @@
+<h1> #{entryTitle entry}
+<entry> #{entryStory entry}
+<hr>
+<a href=@{HomeR}>Enter another story

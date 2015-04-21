@@ -1,7 +1,8 @@
 /static StaticR Static appStatic
 /auth   AuthR   Auth   getAuth
 
-/favicon.ico FaviconR GET
-/robots.txt RobotsR GET
+/favicon.ico FaviconR   GET
+/robots.txt RobotsR     GET
 
-/ HomeR GET POST
+/               HomeR   GET POST
+/story/#EntryId StoryR  GET
