@@ -2,9 +2,13 @@ module Handler.Story where
 
 import Import
 
-getStoryR :: EntryId -> Handler Html
-getStoryR entryId = do
-    entry <- runDB $ get404 entryId
+getStoryR :: Int -> Handler Html
+getStoryR page = do
+    let resultsPerPage = 10
+    entries <- runDB $ selectList [] [Desc EntryPosted, 
+                                      LimitTo resultsPerPage,
+                                      OffsetBy $ page * resultsPerPage ]
     defaultLayout $ do
-        setTitle $ toHtml $ entryTitle entry
+        setTitle "it\'s storyteim"
         $(widgetFile "entry")
+

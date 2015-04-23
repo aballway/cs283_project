@@ -10,9 +10,9 @@ $newline never
 
     <title>#{pageTitle pc}
     <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="description" content="">
     <meta name="author" content="">
+    <script src="static/js/konami-js/konami.js">
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
 

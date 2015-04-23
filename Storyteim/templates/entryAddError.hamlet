@@ -1,4 +1,5 @@
+<h3>you done goofed bub
 <form method=post enctype=#{enctype}>
     ^{entryWidget}
     <div>
-        <input type=submit value="Post New Story">
+        <button>press for storyteim

@@ -1,4 +1,11 @@
-<h1> #{entryTitle entry}
-<entry> #{entryStory entry}
-<hr>
-<a href=@{HomeR}>Enter another story
+$if null entries
+    <h1>there ain't no more. go outside
+$else
+    $forall Entity entryId entry <- entries
+        <div .entry>
+            <h3> #{entryTitle entry}
+            <entry> #{entryStory entry}
+<form action=@{HomeR}>
+    <button>how bout ya write another?
+<form action=@{StoryR (page + 1)}>
+    <button>gimme s'more storees?

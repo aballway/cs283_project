@@ -5,4 +5,4 @@
 /robots.txt RobotsR     GET
 
 /               HomeR   GET POST
-/story/#EntryId StoryR  GET
+!/#Int          StoryR  GET

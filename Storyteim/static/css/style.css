@@ -1,5 +1,5 @@
 html{
-    margin: 25%;
+    margin: 10%;
     font-family: Lato;
 }
 
@@ -9,4 +9,65 @@ body{
     color: #ECF0F1;
     padding: 25px;
     font-size: 1.5em;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+label {
+    text-transform: lowercase;
+}
+
+input {
+    width: 100%;
+    display: block;
+    position: relative;
+    background: #ECF0F1;
+    padding: 2px;
+    color: #2C3E50;
+    font-size: .7em;
+    border: none;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    font-family: Lato;
+    font-size: 0.7em;
+    background: #ECF0F1;
+    color: #2C3E50;
+    padding: 2px;
+    border: none;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: Lato;
+    background: #ECf0F1;
+    border: 2px solid #ECF0F1;
+    border-radius: 1px;
+    color: #2C3E50;
+    text-align: center;
+}
+
+button:hover{
+    background: #FFFFFF;
+    color: #000000;
+    border-color: #FFFFFF;
+}
+
+.errors {
+    color: #FF0033;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.entry {
+    margin-bottom: 120px;
+}
+
+footer {
+    display: none;
 }

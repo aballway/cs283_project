@@ -25,5 +25,5 @@ database:
   database: "_env:PGDATABASE:Storyteim"
   poolsize: "_env:PGPOOLSIZE:10"
 
-copyright: Written by AJ Ballway
+copyright: it's storyteim
 #analytics: UA-YOURCODE

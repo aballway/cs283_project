@@ -13,3 +13,4 @@ Entry
     story Textarea
     score Int
     posted UTCTime
+    deriving Show
