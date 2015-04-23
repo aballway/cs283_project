@@ -1,8 +1,6 @@
 module Handler.Home where
 
 import Import
-import Yesod.Form.Bootstrap3 (BootstrapFormLayout (..), renderBootstrap3,
-                              withSmallInput)
 
 entryForm :: Form Entry
 entryForm = renderDivs $ Entry

@@ -9,6 +9,8 @@ $newline never
     <meta charset="UTF-8">
 
     <title>#{pageTitle pc}
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="description" content="">
     <meta name="author" content="">
 

@@ -8,7 +8,6 @@ Email
     user UserId Maybe
     verkey Text Maybe
     UniqueEmail email
-
 Entry
     title Text
     story Textarea

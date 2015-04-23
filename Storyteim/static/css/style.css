@@ -1,0 +1,12 @@
+html{
+    margin: 25%;
+    font-family: Lato;
+}
+
+body{
+    display: block;
+    background: #2C3E50;
+    color: #ECF0F1;
+    padding: 25px;
+    font-size: 1.5em;
+}

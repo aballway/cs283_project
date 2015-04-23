@@ -18,7 +18,7 @@ stanzas:
       # You can specify one or more hostnames for your application to respond
       # to. The primary hostname will be used for generating your application
       # root.
-      - www.Storyteim.com
+      - www.storyteim.com
 
     # Enable to force Keter to redirect to https
     # Can be added to any stanza
@@ -27,7 +27,7 @@ stanzas:
   # Static files.
   - type: static-files
     hosts:
-      - static.Storyteim.com
+      - static.storyteim.com
     root: ../static
 
     # Uncomment to turn on directory listings.
@@ -37,9 +37,9 @@ stanzas:
   - type: redirect
 
     hosts:
-      - Storyteim.com
+      - storyteim.com
     actions:
-      - host: www.Storyteim.com
+      - host: www.storyteim.com
         # secure: false
         # port: 80
 
@@ -48,7 +48,7 @@ stanzas:
 
 # Use the following to automatically copy your bundle upon creation via `yesod
 # keter`. Uses `scp` internally, so you can set it to a remote destination
-# copy-to: user@host:/opt/keter/incoming
+copy-to: ../../opt/keter/incoming
 
 # If you would like to have Keter automatically create a PostgreSQL database
 # and set appropriate environment variables for it to be discovered, uncomment
