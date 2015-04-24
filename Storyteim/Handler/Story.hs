@@ -4,7 +4,7 @@ import Import
 
 getStoryR :: Int -> Handler Html
 getStoryR page = do
-    let resultsPerPage = 10
+    let resultsPerPage = 1
     entries <- runDB $ selectList [] [Desc EntryPosted, 
                                       LimitTo resultsPerPage,
                                       OffsetBy $ page * resultsPerPage ]
