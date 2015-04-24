@@ -3,7 +3,9 @@ module Handler.Story where
 import Import
 
 getStoryR :: Int -> Handler Html
-getStoryR page = do
+getStoryR page
+    | page < 0  = getStoryR 0
+    | otherwise = do
     let resultsPerPage = 1
     entries <- runDB $ selectList [] [Desc EntryPosted, 
                                       LimitTo resultsPerPage,
