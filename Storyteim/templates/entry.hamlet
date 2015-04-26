@@ -8,4 +8,4 @@ $else
 <form action=@{HomeR}>
     <button>how bout ya write another?
 <form action=@{StoryR (page + 1)}>
-    <button>gimme s'more storees?
+    <button>gimme s'more storys!
